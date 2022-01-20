@@ -1,6 +1,44 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.cardPreview{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    margin: 20vh auto;
+    min-height: 60vh;
+    width: 20%;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+}
+
+.creatorName{
+    color: hsl(0, 0%, 100%);
+}
+
+.flex-container {
+    display: flex;
+  }
+
+img{
+    max-width: 100%;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    flex: 1;
+}
+
+.days{
+    flex: 1;
+    text-align: right;
 }
