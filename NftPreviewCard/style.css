@@ -32,22 +32,21 @@ body{
 
 .flex-container {
     display: flex;
-  }
+    align-items: center;
+}
 
-img{
+.mainImg{
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .eth{
     color: hsl(178, 100%, 50%);
     flex: 1;
-    font-size: 16px;
 }
 
 .days{
-    flex: 1;
     text-align: right;
-    font-size: 16px;
 }
 
 .description{
@@ -65,7 +64,11 @@ img{
 }
 
 .creator > p{
-    display: inline;
     margin: 0 15px;
+}
+
+.auxiliarText{
+    display: inline;
     font-size: 16px;
+    margin: 0 5px;
 }
