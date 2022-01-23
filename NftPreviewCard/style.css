@@ -20,10 +20,15 @@ body{
     width: 20%;
 }
 
+p{
+    margin: 0;
+}
+
 .title{
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 20px;
+    margin: 20px 0;
 }
 
 .creatorName{
@@ -33,6 +38,13 @@ body{
 .flex-container {
     display: flex;
     align-items: center;
+}
+
+.hr{
+    border: solid hsl(215, 51%, 70%);
+    border-width: 0 0 1px 0;
+    margin: 0 0 15px 0;
+    opacity: 0.25;
 }
 
 .mainImg{
@@ -51,6 +63,11 @@ body{
 
 .description{
     font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+.description > p{
+    margin: 0 0 20px 0;
 }
 
 .creator{
