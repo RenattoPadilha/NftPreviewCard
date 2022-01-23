@@ -11,9 +11,11 @@ body{
 
 .cardPreview{
     background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
     color: hsl(215, 51%, 70%);
     margin: 20vh auto;
     min-height: 60vh;
+    padding: 1.5%;
     width: 20%;
 }
 
