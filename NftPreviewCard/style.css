@@ -14,6 +14,7 @@ body{
 .cardPreview{
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
+    box-shadow: 0px 20px 10px 10px hsl(216, 52%, 10%), 0px 20px 10px 35px hsl(217, 54%, 11%);
     color: hsl(215, 51%, 70%);
     margin: 20vh auto;
     padding: 1.5%;
