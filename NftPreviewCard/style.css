@@ -128,3 +128,42 @@ p{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
+
+@media only screen 
+    and (max-device-width: 480px){
+
+    .cardPreview{
+        padding: 5%;
+        width: 75%;
+    }
+}
+
+@media only screen 
+    and (min-device-width: 481px) 
+    and (max-device-width: 768px){
+
+    .cardPreview{
+        padding: 4%;
+        width: 55%;
+    }
+}
+
+@media only screen 
+    and (min-device-width: 769px) 
+    and (max-device-width: 1024px){
+
+    .cardPreview{
+        padding: 3%;
+        width: 35%;
+    }
+}
+
+@media only screen 
+    and (min-device-width: 1025px) 
+    and (max-device-width: 1200px){
+
+    .cardPreview{
+        padding: 2%;
+        width: 25%;
+    }
+}
